@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOMEPAGE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .header-1{
+            width: 80%;
+            height: 60vh;
+            padding-left: 10%;
+            padding-bottom: 10%;
+        }
+        .nav-1{
+            margin-top: 0px;
+            padding-top: 30px;
+            margin-left: -18PX;
+        }
+        .nav-item-1{
+            padding-left: 380px;
+        }
+        header{
+            background-color: #281848;
+            width: 100%;
+            margin-top: 0;
+        }
+
+        main{
+            height: 350vh;
+            width: 100%;
+        }
+        .search-class{
+            display: flex;
+            flex-direction: row;
+        }
+
+        .check{
+            display: flex;
+            flex-direction: row;
+            margin-top: 20px;
+        }
+
+        p{
+            color: #fff;
+        }
+
+        .search-class{
+            height: 80px;
+            width: 100%;
+            margin-top: 40px;
+        }
+
+        .main-top{
+            height: 60vh;
+            width: 100%;
+            margin-bottom: 5px;
+            
+        }
+        .img-top{
+            height: 100vh;
+            width: 100%;
+            position: relative;
+        }
+        .img-txt{
+            position: absolute;
+            top: 20%;
+            margin-left: 160px;
+            background-color: #cfcfcf;
+            height: 140px;
+            width: 460px;
+            text-align: start;
+            padding-top: 0px;
+            padding-left: 25px;
+            font-size: 45px;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 0px;
+        }
+        .img-txt-2{
+            position: absolute;
+            top: 30%;
+            color: #ffffff;
+            margin-left: 320px;
+            margin-top: 80px;
+            background-color: #2175d9;
+            height: 100px;
+            width: 340px;
+            text-align: center;
+            padding-top: 25px;
+            border-top-left-radius: 0px;
+            border-top-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+
+        .para-1{
+            position: absolute;
+            top: 60%;
+            color: #ffff;
+            margin-left: 160px;
+            font-size: 22px;
+            height: 40px;
+            width: 400px;
+        }
+
+        .btn-pa-1{
+            position: absolute;
+            top: 82%;
+            margin-left:160px ;
+        }
+
+        .main-middle{
+            height: 60vh;
+            width: 100%;
+            margin-top: -40px;
+            
+        }
+        .img-top{
+            height: 100vh;
+            width: 100%;
+            position: relative;
+        }
+        .img2-txt{
+            position: absolute;
+            top: 180%;
+            margin-left: 780px;
+            background-color: #cfcfcf;
+            height: 140px;
+            width: 460px;
+            text-align: start;
+            padding-top: 0px;
+            padding-left: 25px;
+            font-size: 45px;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 0px;
+        }
+        .img2-txt-2{
+            position: absolute;
+            top: 190%;
+            color: #ffffff;
+            margin-left: 920px;
+            margin-top: 80px;
+            background-color: #2175d9;
+            height: 100px;
+            width: 340px;
+            text-align: center;
+            padding-top: 25px;
+            border-top-left-radius: 0px;
+            border-top-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+
+        .para2-1{
+            position: absolute;
+            top: 217%;
+            color: #ffff;
+            margin-left: 780px;
+            font-size: 22px;
+            height: 40px;
+            width: 400px;
+        }
+
+        .btn2-pa-1{
+            position: absolute;
+            top: 238%;
+            margin-left:780px ;
+        }
+
+        .img3-txt{
+            position: absolute;
+            top: 290%;
+            margin-left: 880px;
+            text-align: start;
+            font-size: 60px;
+        }
+        .img3-txt-2{
+            position: absolute;
+            top: 295%;
+            color: #000000;
+            margin-left: 1020px;
+            margin-top: 80px;
+            background-color: #2175d9;
+            height: 100px;
+            width: 340px;
+            text-align: center;
+            padding-top: 25px;
+            border-top-left-radius: 0px;
+            border-top-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+
+        .para3-1{
+            position: absolute;
+            top: 305%;
+            color: #000000;
+            margin-left: 880px;
+            font-size: 22px;
+            height: 40px;
+            width: 400px;
+        }
+
+        .btn3-pa-1{
+            position: absolute;
+            top: 345%;
+            margin-left:880px ;
+        }
+
+        .main-2{
+          height: 90vh;
+          width: 100%;
+          display: relative;
+          background-color: rgb(255, 246, 235);
+          margin-bottom: 5px;
+
+        }
+
+        .area{
+          width: 35%;
+          margin-top: -40px;
+          margin-left: 120px;
+        }
+        .area-para{
+          font-size: 32px;
+          color: #666666;
+          display: inline-flex;
+          margin-top: 80px;
+          margin-left: 40px;
+        }
+
+        li{
+          list-style: none;
+          padding-top: 20px;
+        }
+
+        .listed-1{
+          display: flex;
+          flex-direction: row;
+          margin-left: 100px;
+        }
+        section{
+          margin-top: 37px;
+          height: 300px;
+          font-size: 28px;
+          justify-content: space-between;
+        }
+
+        .main-3{
+          height: 100vh;
+          width: 100%;
+          margin-top: 3px;
+          background-color: #0f1941;
+          display: flex;
+          flex-direction: row;
+        }
+        .foot-main{
+        background-color: #242626;
+        padding: 70px 0;
+        }
+
+        .nav-2{
+          margin-top: -50px;
+        }
+    </style>
+</head>
+<body>
+
+    <!--header starts from-->
+    <header>
+        <div class="header-1">
+        <div class="nav-1">
+        <nav class="navbar navbar-expand-lg" style="border-style: none;">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="http://127.0.0.1:5500/index.html" style="color:#fff;font-size: 3.4rem">GENESIS IT SOLUTIONS</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5500/jobseekers.html" style="color:rgb(161, 161, 161);font-size: 1rem;">for job seekers</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5500/business.html" style="color:rgb(161,161,161);font-size: 1rem;">for business</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#" style="color:rgb(161,161,161);font-size: 1rem;">about us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5500/locations.html" style="color:rgb(161,161,161);font-size: 1rem;">locations</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+    <div class="nav-2">
+        <h1 style="padding-top: 85px;color:#fff;font-size: 3.2rem; font-weight: normal;">search jobs through GENESIS</h1>
+    </div>
+    <div class="search-class">
+       <p>search for <br><input type="search" placeholder="job title or keyword" style="height: 50px;width: 320px;text-align: center;border-radius: 5px;
+       border-style:none;margin-right: 10px;"></p>
+       <p>where? <br><input type="search" placeholder="location or zip-code" style="height: 50px;width: 320px;text-align: center;border-radius: 5px;
+       border-style:none;margin-right: 10px;"></p>
+       <button style="height: 52px;width: 200px;margin-top: 23px; color: #fff;background-color: #2175d9 !important;border-radius: 5px;
+       border-style:none;margin-right: 10px;">search jobs</button>
+    </div>
+    <div class="check">
+        <a href="#" style="padding-right: 180px;text-decoration: none;color: #fff;padding-left: 10px;">use current location</a>
+        <p><input type="checkbox" value="text">remote jobs only</p>
+    </div>
+</div>
+    </header>
+
+<!--main body starts from here-->
+
+    <main>
+        <div class="main-top">
+            <div class="img-top">
+                <img src="pexels-ivan-samkov-4458554.jpg" style="height: 747px;width: 1518px;object-fit: cover;">
+                <div class="img-txt"><p style="font: 60px;">career search<br> underway?</p>
+                </div><div class="img-txt-2"><h1>look no further!</h1></div>
+                <div class="para-1">Is your career ready for a change? Randstad can help match you with your next job and ensure your job search goes smoothly.</div>
+                <div class="btn-pa-1"><button style="height: 60px;width: 120px;text-align: center;color: #fff;background-color: transparent;
+                border-radius: 5px;border-color: #fff;">search jobs</button></div>
+        </div>
+        <div class="main-middle">
+            <div class="img2-top">
+                <img src="pexels-ketut-subiyanto-4126743.jpg" style="height: 747px;width: 1518px;object-fit: cover;object-position: top;">
+                <div>
+                <div class="img2-txt"style="background-color: transparent;backdrop-filter: blur(3px);height: 600px;width: 600px;margin-top:-100px"><p style="font: 60px;background-color: #afafaf;border-radius: 25px;border-bottom-right-radius: 0px ;display: inline-block; margin-top: 80px;padding-left: 0px;">career search<br> underway?</p>
+                </div><div class="img2-txt-2" style="margin-top: 40px;"><h1>look no further!</h1></div>
+                <div class="para2-1" style="margin-left: 820px;margin-top: -50px;">Is your career ready for a change? Randstad can help match you with your next job and ensure your job search goes smoothly.</div>
+                <div class="btn2-pa-1" style="margin-top: -70px;margin-left: 800px;"><button style="height: 60px;width: 120px;text-align: center;color: #fff;background-color: transparent;margin-left: 20px;
+                border-radius: 5px;border-color: #fff;">search jobs</button></div>
+        </div>
+        <div class="main-bottom">
+          <div class="img3-top">
+            <img src="pexels-canva-studio-3153203.jpg" style="height: 747px;width: 759px;object-fit: cover;margin-top: 3px;">
+            <div class="img3-txt"><p style="font: 60px;color: #000000;margin-top: -200px;">ABOUT GENESIS?</p>
+            </div>
+            <div class="para3-1"><p style="margin-top: -200px;color: #000000; ">
+              We provide outsourcing, staffing, consulting and workforce solutions within the areas of engineering, accounting and finance, healthcare, human resources, IT, legal, life sciences, manufacturing and logistics, office and administration and sales and marketing. We can’t wait to tell you all about it.</div>
+            </p><div class="btn3-pa-1"style="margin-top: -200px;"><button style="height: 60px;width: 120px;text-align: center;color: #000000;background-color: transparent;
+            border-radius: 5px;border-color: #000000;">search jobs</button></div>
+    </div>
+        </div>
+<!--footer starts from here-->
+<footer style="background-color: #4b4b4b;padding-top: 0px;height: 80vh;padding-left: 120px;">
+  <table style="height: 300px;">
+    <tr>
+      <td style="height: 70px;width: 300px;"><div class="footer-col">
+        <ul>
+          <section style="height:100px;width:300px; display:flex ;flex-direction:column;padding-top:10px">                                                                  
+          <h4><img src="DC.png" height="60px" width="60px"></h4>
+          <li style="color:white;font-size: 18px;">Sed ut perspiciatis unde omnis iste nerror sit voluptatem accusantium dolorem tium totam </li>
+          
+          </section></ul>
+        </div></td>
+        <td style="height: 70px;width: 300px;"><div class="footer-col">
+                  <ul>
+                    <section style="height:100px;width:300px; display:flex ;flex-direction:column;padding-top:10px">                                                                  
+                    <h4 style="color:#ffff">USEFULL LINKS</h4>
+                    <li><a href=""style="font-size:18px;text-decoration:none;color:#fff">Get a Quote</a></li>
+                    <li><a href=""style="font-size:18px;text-decoration:none;color:#fff">Single News</a></li>
+                    <li><a href=""style="font-size:18px;text-decoration:none;color:#fff">Support Carrer</a></li>
+                    <li><a href=""style="font-size:18px;text-decoration:none;color:#fff">Privacy Policy</a></li>
+                    <li><a href=""style="font-size:18px;text-decoration:none;color:#fff">Site Map</a></li>
+                    </section></ul>
+                </div></td>
+                <td style="height: 70px;width: 100px;"><div class="footer-col">
+                  <ul>
+                    <section style="height:100px;width:300px; display:flex ;flex-direction:column;padding-top:10px" >
+                    <h4 style="color:#ffff">SITE LINKS</h4>
+                    <li style="float: inline-start;"><a href="" style="font-size:18px;text-decoration:none;color:#fff">Home</a></li>
+                    <li><a href=""style="font-size:18px;text-decoration:none;color:#fff">About Us</a></li>
+                    <li><a href=""style="font-size:18px;text-decoration:none;color:#fff">Services</a></li>
+                    <li><a href=""style="font-size:18px;text-decoration:none;color:#fff">Project</a></li>
+                    <li><a href=""style="font-size:18px;text-decoration:none;color:#fff">Our Team</a></li>
+                  </section></ul>
+                </div></td>
+                <td style="height: 70px;width: 100px;"><div class="footer-col">
+                  <ul>
+                    <section style="height:100px;width:300px; display:flex ;flex-direction:column;padding-top:10px">
+                    <h4 style="color:#ffff">CONTACT US</h4>
+                    <li><a href=""style="font-size:18px;text-decoration:none;color:#fff">Address</a></li>
+                    <li><a href=""style="font-size:18px;text-decoration:none;color:#fff">Contact number</a></li>
+                    <li><a href=""style="font-size:18px;text-decoration:none;color:#fff">email</a></li>
+                    <li><a href=""style="font-size:18px;text-decoration:none;color:#fff">City</a></li>
+                    <li><a href=""style="font-size:18px;text-decoration:none;color:#fff">Timing</a></li>
+                  </section></ul>
+                </div>
+               </div></td>
+             </tr> 
+             <br><br>
+            </table>
+            <div class="btn-links" style="justify-content: space-between;padding-left: 50px; margin-top: 20px;">
+              <li><a href=""><img src="icons8-instagram.gif" style="border-radius: 10px;height: 30px;"></a>
+              <a href=""><img src="icons8-twitter.gif" style="border-radius: 10px;height: 30px;"></a>
+              <a href=""><img src="icons8-facebook.gif" style="border-radius: 10px;height: 30px;"></a></li><br>
+            </div>
+            <div class="dev" style="margin-top: 20px; padding-left: 500px;"></div>
+            <h5 style="color:#fff;  margin-left: 360px;margin-top: 70px;">Copyrights<img src="copyright_FILL0_wght400_GRAD0_opsz48.svg" style="padding-left: 5px; padding-right: 2px;height: 18px;vertical-align: middle;"> 2023 All Rights Reserved . Desigined by<a href="http://pravishree.com/?i=1" target="blank" style="padding-left: 15px; margin-top: 2px;">pravishree</a></h5>
+            
+    </div>
+</footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>

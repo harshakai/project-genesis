@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>business</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .header-1{
+            width: 80%;
+            height: 20vh;
+            padding-left: 10%;
+            padding-bottom: 10%;
+        }
+        .nav-1{
+            margin-top: 0px;
+            padding-top: 30px;
+        }
+        .nav-item-1{
+            padding-left: 380px;
+        }
+        header{
+            background-color: rgb(111, 35, 121);
+            width: 100%;
+            margin-top: 0;
+        }
+
+        main{
+            width: 100%;
+        }
+        .search-class{
+            display: flex;
+            flex-direction: row;
+        }
+
+        .check{
+            display: flex;
+            flex-direction: row;
+            margin-top: 20px;
+        }
+
+        p{
+            color: #ffffff;
+        }
+
+        .search-class{
+            height: 80px;
+            width: 100%;
+            margin-top: 40px;
+        }
+        section{
+          margin-top: 80px;
+          height: 300px;
+          font-size: 28px;
+          justify-content: space-between;
+        }
+
+        li{
+            list-style: none;
+        }
+
+        .main-top{
+            background-color: rgb(111, 35, 121);
+            height: 90vh;
+            width: 100%;
+        }
+
+        .main-top-image{
+            display: flex;
+            flex-direction: row;
+        }
+
+        .btn-help-you{
+            height: 60px;
+            width: 260px;
+            border-radius: 5px;
+            border-color: #fff;
+            background-color: transparent;
+            margin-left: 140px;
+            margin-top: 15px;
+            font-size: 20px;
+        }
+
+        .btn-play{
+          height: 60px;
+            width: 160px;
+            border-radius: 5px;
+            border-color: #fff;
+            background-color: transparent;
+            margin-left: 140px;
+            margin-top: 15px;
+            font-size: 20px;
+        }
+        .main-middle{
+          height: 50vh;
+          width: 100%;
+          background-color: #ffffff;
+        }
+
+        .btn-check-today{
+          height: 60px;
+            width: 160px;
+            border-radius: 5px;
+            border-color: #3c81ff;
+            background-color: transparent;
+            margin-left: 1140px;
+            margin-top: -15px;
+            font-size: 20px;
+        }
+        .main-middle-2{
+          height: 30vh;
+          width: 100%;
+          background-color: #fff;
+        }
+        .btn-learn-more{
+          height: 60px;
+            width: 160px;
+            border-radius: 5px;
+            border-color: rgb(40, 0, 96);
+            background-color: transparent;
+            margin-left: 1140px;
+            margin-top: -5px;
+            font-size: 20px;
+        }
+        .main-middle-1{
+          height: 120vh;
+          width: 100%;
+          margin-top: -130px;
+        }
+
+        .main-middle-3-img{
+          display: flex;
+          flex-direction: row;
+        }
+        .main-middle-3-li{
+          height: 100vh;
+          width: 100%;
+          display: relative;
+          background-color: #2175d9;
+          margin-bottom: 5px;
+          margin-top: 139.8px;
+
+        }
+        .listed-1{
+          display: flex;
+          flex-direction: row;
+          margin-left: 100px;
+        }
+
+        .area{
+          width:25%;
+          margin-top: -40px;
+          margin-left: 0px;
+        }
+        .area-para{
+          font-size: 32px;
+          color: #ffffff;
+          display: inline-flex;
+          margin-top: 120px;
+          margin-left: 40px;
+        }
+
+        .emp-btn{
+          margin-left: 60%;
+          height: 70px;
+          width: 250px;
+          border-radius: 12px;
+          background-color: transparent;
+          border-color: #000000;
+        }
+
+        .main-bottom-container{
+          height: 110vh;
+          background-color: #2175d9;
+          margin-top: -120px;
+        }
+        .list-cb1-1{
+          list-style-type: disc;
+        }
+
+        .container-box-2{
+          height: 80vh;
+          width: 30%;
+          margin-left: 60%;
+          background-color: #939393;
+          margin-top: -40vh;
+          border-radius: 25px;
+          box-shadow: 0 20px 40px rgba(0,0,0,0.8);
+        }
+
+        .form-lables{
+          margin-bottom: 15px;
+          margin-top: 40px;
+          margin-left: 20px;
+          height: 35px;
+          width: 380px;
+          border-radius: 25px;
+          border-style: none;
+          text-align: start;
+          font-size: 20px;
+          padding-left: 12px;
+        }
+
+        .form-btn{
+          height: 35px;
+          width: 180px;
+          border-radius: 12px;
+          border-style: none;
+          background-color: #2175d9;
+          color: #000000;
+          margin-left: 25px;
+          margin-top: 30px;
+          padding-bottom: 25px;
+          font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <header>
+            <div class="header-1">
+            <div class="nav-1" style="margin-left: -28px;">
+            <nav class="navbar navbar-expand-lg" style="border-style: none;">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="http://127.0.0.1:5500/index.html" style="color:#fff;font-size: 1.5rem;">Navbar</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5500/jobseekers.html" style="color:rgb(255, 255, 255);font-size: 1rem;">for job seekers</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5500/business.html" style="color:rgb(255, 255, 255);font-size: 1rem;">for business</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#" style="color:rgb(255, 255, 255);font-size: 1rem;">about us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5500/locations.html" style="color:rgb(255, 255, 255);font-size: 1rem;">locations</a>
+                      </li>
+                      <li class="nav-item-1" style="justify-content: center;align-items: end;text-align: end;padding-left:0px;">
+                        <a class="nav-link active" aria-current="page" href="#" style="color:rgb(255, 255, 255);font-size: 1rem;">my account</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            </div>
+            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+              <ol class="breadcrumb" style="margin-left: -14px;">
+                <li class="breadcrumb-item active"><a href="#" style="color: #fff;">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">business</li>
+              </ol>
+            </nav>
+        </header>
+        <main>
+
+            <!--main starts from here-->
+            <div class="main-top">
+                <div class="main-top-img">
+                    <section>
+                    <img src="For-Business-Page-Header.jpg" style="height: 50vh;width:50% ;filter: opacity(0.6);margin-top: 2px;margin-left: 720px;  border-style: none;box-shadow:0 4px 30px rgba(0,0,0,0.8);border-radius: 55px;"></section>
+                    <section>
+                    <p style="font-size: 50px;width: 500px;margin-left: 140px;margin-top: -400px;line-height: 70px; color: #fff;">build your workforce and solutions in a brand new way with the world's top provider.</p>
+                    <p style="font-size: 20px;width: 500px;margin-left: 140px;margin-top: 5px;">Randstad is the industry leader in staffing backed with talented teams to provide technical solutions and business consulting. Explore how we can partner today.</p>
+                    <button class="btn-play"><a href="" style="text-decoration: none; color: #fff;">play the video</a></button></section>
+                </div> 
+            </div>
+        </main>
+        <!--main-middle-part starts from here-->
+      <!--main-middle-part-1 starts from here-->
+      <div class="main-middle-1">
+        <div class="main-middle-1-img">
+          <section>
+          <img src="Building_illustration_UseBackgroundWhite_RGB.svg" style="overflow: clip;background-color: rgb(111, 35, 121);height: 93.4vh;width: 50%;margin-left: 759.5px;object-fit: contain;background-position: bottom;"></section>
+          <section>
+          <p style="font-size: 60px;width: 500px;margin-left: 140px;margin-top: -220px;line-height: 70px;color: #000000;">randstad for business</p>
+          <p style="font-size: 20px;width: 500px;margin-left: 140px;margin-top: 5px;color: #000000;">Randstad is the business partner of choice. We can step in at any moment, whether you are evaluating productivity of key roles, or launching a large company ramp-up. We offer staffing solution planning, technical project solutions, change management consulting, or even outplacement and VMS programs. We do it all.</p>
+          <button class="btn-help-you"><a href="" style="text-decoration: none; color: #3c81ff;">how can we help you?</a></button></section>
+      </div>
+      <!--main-middle-part-2 starts from here-->
+      <!--main-middle-part-3 starts from here-->
+      <div class="main-middle-3">
+        <div class="main-middle-3-img">
+          <div class="main-middle-3-li">
+
+            <div class="listed-1">
+              <div class="area"><p class="area-para">no matter what industry you're in</p></div>
+              <section class="blocks">
+                <li><a href="#"style="text-decoration:none;color: #fff;">business administration & operations</a></li>
+                <hr>
+                <li><a href="#"style="text-decoration:none;color: #fff;">finance & accounting</a></li>
+                <hr>
+                <li><a href="#"style="text-decoration:none;color: #fff;">legal</a></li>
+                <hr>
+                <li><a href="#"style="text-decoration:none;color: #fff;">technologies</a></li>
+                <hr>
+                <li><a href="#"style="text-decoration:none;color: #fff;">engineering</a></li>
+                <hr>
+                <li><a href="#"style="text-decoration:none;color: #fff;">healthcare</a></li>
+                <hr>
+                <li><a href="#"style="text-decoration:none;color: #fff;">human resources</a></li>
+                <hr>
+                <li><a href="#"style="text-decoration:none;color: #fff;">STEM</a></li>
+                <hr>
+              </section>
+              <section style="padding-left: 35px;">
+                <li><a href="#"style="text-decoration:none;color: #fff;">customer engagement & experience</a></li>
+                <hr>
+                <li><a href="#"style="text-decoration:none;color: #fff;">life sciences</a></li>
+                <hr>
+                <li><a href="#"style="text-decoration:none;color: #fff;">manufacturing and logistics</a></li>
+                <hr>
+                <li><a href="#"style="text-decoration:none;color: #fff;">sales and marketing</a></li>
+                <hr>
+                <li><a href="#"style="text-decoration:none;color: #fff;">all areas of expertise</a></li>
+                <hr>
+              </section>
+            </div> 
+        </div> 
+    </div>
+      </div>
+
+      <!--main-bottom part starts from here-->
+      <div class="main-bottom" style="height: 100vh;">
+        <div class="main-bottom-part-1">
+          <div class="looking-for-employees">
+            <section>
+              <div class="emp-img">
+                <img src="Find employees_0.svg" style="height: 80vh;justify-content: center;width: 80%;margin-left: -15%;margin-top: -50px;">
+              </div>
+            </section>
+            <section>
+              <div class="heading-emp" >
+                <p style="color: #000000;font-size: 60px;padding-left: 60%;margin-top: -425px;line-height: 60px;">looking for employees?</p>
+              </div><br>
+              <div class="para-emp">
+                <p style="color: #000000;font-size: 28px;padding-left: 60%;width: 80%;margin-top: -5px;">
+                  Find your next employees with Relevate Talent Search. Search our comprehensive database by skill, experience and location to find the employees you need.
+                </p>
+              </div><br>
+                <button class="emp-btn">find employees</button>
+            </section>
+          </div>
+        </div>
+      </div>
+
+      <!--main-bottom-container starts from here-->
+      <div class="main-bottom-container">
+        <div class="containers">
+          <section>
+            <div class="container-box-1" style="width: 40%;padding-left: 80px;padding-top: 120px;">
+              <p class="conatiner-box-1-header" style="font-size: 26px;">
+                find candidates and fill shifts fast — 24/7
+              </p>
+              <p class="container-box-1-para" style="font-size: 20px;">
+                Randstad at work is a digital staffing platform that lets you take control of your shifts and secure manufacturing and logistics employees fast.
+              </p>
+              <div class="list-cb1">
+                <ol>
+                <li class="list-cb1-1" style="font-size: 20px;color: #fff;">place orders in minutes, anytime, anywhere from your desktop or smartphone</li>
+                <li class="list-cb1-1" style="font-size: 20px;color: #fff;">fill shifts faster with pre-screened talent — fully vetted and ready to work</li>
+                <li class="list-cb1-1" style="font-size: 20px;color: #fff;">manage shifts and scheduling directly in the new platform</li>
+              </ol>
+              </div>
+              <button class="cb1-btn" style="font-size: 20px; height: 50px;width: 160px;border-radius: 25px;border-style: none;"><a href="" style="text-decoration: none;"> out more</a></button>
+            </div>
+          </section>
+          <section>
+            <div class="container-box-2">
+              <div class="container-box-2-header" style="font-size:20px; height:70px;width: 90%;padding-left: 10%;padding-top:20px;margin-bottom: 40px;color: #000000;">
+                Please enter your information below to be notified when Randstad at work is available in your state.
+              </div>
+              <div class="form">
+                <form>
+                  <input type="text" placeholder="enter your first name" class="form-lables"><br>
+                  <input type="text" placeholder="enter your last name"class="form-lables"><br>
+                  <input type="email" placeholder="enter your email"class="form-lables"><br>
+                  <input type="text" placeholder="enter zip-code"class="form-lables"><br>
+                  <input type="text" placeholder="enter your company details"class="form-lables"><br>
+                  <button type="submit" class="form-btn">get notified</button>
+                </form>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+            <!--footer starts from here-->
+<footer style="background-color: #4b4b4b;padding-top: 0px;height: 80vh;padding-left: 120px;margin-top: -5vh;">
+    <table style="height: 300px;">
+      <tr>
+        <td style="height: 70px;width: 300px;"><div class="footer-col">
+          <ul>
+            <section style="height:100px;width:300px; display:flex ;flex-direction:column;padding-top:10px">                                                                  
+            <h4><img src="DC.png" height="60px" width="60px"></h4>
+            <li style="color:white;font-size: 18px;">Sed ut perspiciatis unde omnis iste nerror sit voluptatem accusantium dolorem tium totam </li>
+            
+            </section></ul>
+          </div></td>
+          <td style="height: 70px;width: 300px;"><div class="footer-col">
+                    <ul>
+                      <section style="height:100px;width:300px; display:flex ;flex-direction:column;padding-top:10px">                                                                  
+                      <h4 style="color:#ffff">USEFULL LINKS</h4>
+                      <li><a href=""style="font-size:18px;text-decoration:none;color:#fff">Get a Quote</a></li>
+                      <li><a href=""style="font-size:18px;text-decoration:none;color:#fff">Single News</a></li>
+                      <li><a href=""style="font-size:18px;text-decoration:none;color:#fff">Support Carrer</a></li>
+                      <li><a href=""style="font-size:18px;text-decoration:none;color:#fff">Privacy Policy</a></li>
+                      <li><a href=""style="font-size:18px;text-decoration:none;color:#fff">Site Map</a></li>
+                      </section></ul>
+                  </div></td>
+                  <td style="height: 70px;width: 100px;"><div class="footer-col">
+                    <ul>
+                      <section style="height:100px;width:300px; display:flex ;flex-direction:column;padding-top:10px" >
+                      <h4 style="color:#ffff">SITE LINKS</h4>
+                      <li style="float: inline-start;"><a href="" style="font-size:18px;text-decoration:none;color:#fff">Home</a></li>
+                      <li><a href=""style="font-size:18px;text-decoration:none;color:#fff">About Us</a></li>
+                      <li><a href=""style="font-size:18px;text-decoration:none;color:#fff">Services</a></li>
+                      <li><a href=""style="font-size:18px;text-decoration:none;color:#fff">Project</a></li>
+                      <li><a href=""style="font-size:18px;text-decoration:none;color:#fff">Our Team</a></li>
+                    </section></ul>
+                  </div></td>
+                  <td style="height: 70px;width: 100px;"><div class="footer-col">
+                    <ul>
+                      <section style="height:100px;width:300px; display:flex ;flex-direction:column;padding-top:10px">
+                      <h4 style="color:#ffff">CONTACT US</h4>
+                      <li><a href=""style="font-size:18px;text-decoration:none;color:#fff">Address</a></li>
+                      <li><a href=""style="font-size:18px;text-decoration:none;color:#fff">Contact number</a></li>
+                      <li><a href=""style="font-size:18px;text-decoration:none;color:#fff">email</a></li>
+                      <li><a href=""style="font-size:18px;text-decoration:none;color:#fff">City</a></li>
+                      <li><a href=""style="font-size:18px;text-decoration:none;color:#fff">Timing</a></li>
+                    </section></ul>
+                  </div>
+                 </div></td>
+               </tr> 
+               <br><br>
+              </table>
+              <div class="btn-links" style="justify-content: space-between;padding-left: 50px; margin-top: 20px;">
+                <li><a href=""><img src="icons8-instagram.gif" style="border-radius: 10px;height: 30px;"></a>
+                <a href=""><img src="icons8-twitter.gif" style="border-radius: 10px;height: 30px;"></a>
+                <a href=""><img src="icons8-facebook.gif" style="border-radius: 10px;height: 30px;"></a></li><br>
+              </div>
+              <div class="dev" style="margin-top: 20px; padding-left: 500px;"></div>
+              <h5 style="color:#fff; margin-left: 360px;margin-top: 70px;">Copyrights<img src="copyright_FILL0_wght400_GRAD0_opsz48.svg" style=" padding-right: 5px;height: 18px;vertical-align: middle; padding-left: 5px;"> 2023 All Rights Reserved . Desigined by<a href="http://pravishree.com/?i=1" target="blank" style="padding-left: 15px; margin-top: 2px;">pravishree</a></h5>
+      </div>
+        </footer>
+<script></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+
+</html>
